@@ -1,3 +1,12 @@
-# Новое портфолио
+# Portfolio
 
-Сделано с использованием [Jekyll](https://jekyllrb.com/)
+Made using [Jekyll](https://jekyllrb.com/)
+
+# InstructionsPermalink
+
+```
+    gem install jekyll bundler
+    cd project-name
+    bundler install
+    bundle exec jekyll serve
+```

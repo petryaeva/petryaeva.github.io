@@ -18,15 +18,15 @@ email: petryaeva.e@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://petrek.ru
-twitter_username: kaktusx
 github_username:  petryaeva
-headhunter: https://rostov.hh.ru/resume/3a160107ff03c935850039ed1f643275537464#key-skills
-goodreads: 75747361-ekaterina
-facebook: e.petryaeva
+headhunter: 3a160107ff03c935850039ed1f643275537464
+linkedin: ekaterina-petryaeva-27b63ab3
+codepen: petrek
+telegram: t.me/@petrek
 
 # Build settings
 markdown: kramdown
-#theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
@@ -41,5 +41,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-cayman

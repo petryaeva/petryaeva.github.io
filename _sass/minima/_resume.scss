@@ -28,7 +28,11 @@ dt, dd {
 
     .education {
         dt, dd {
-            width: 50%;
+            width: 60%;
+        }
+
+        dd {
+            margin-bottom: 30px;
         }
     }
 }

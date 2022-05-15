@@ -115,8 +115,7 @@
   margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
+.contact-list {
   list-style: none;
   margin-left: 0;
 }
@@ -256,9 +255,13 @@
 $spacer: 20px;
 
 .container {
-    max-width: 860px;
+    max-width: 1024px;
     margin: 0 auto;
     padding: 0 $spacer;
+
+    @media(min-width: 425px) {
+      padding: 0 10px;
+    }
 }
 
 .section-title {
@@ -267,6 +270,10 @@ $spacer: 20px;
     margin-bottom: ($spacer * 2);
     text-align: center;
     position: relative;
+
+    @media(min-width: 425px) {
+      margin-bottom: $spacer;
+    }
 
     &:after {
         content: '';
