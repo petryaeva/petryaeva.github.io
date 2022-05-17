@@ -2,7 +2,7 @@
 
 Made using [Jekyll](https://jekyllrb.com/)
 
-# InstructionsPermalink
+# Instructions
 
 ```
     gem install jekyll bundler
